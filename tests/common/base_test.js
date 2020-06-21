@@ -1,6 +1,6 @@
 /* globals gauge*/
+/* */
 'use strict'
-require('dotenv').config()
 
 const { openBrowser, closeBrowser } = require('taiko')
 const globalVariable = require('./global_variables')

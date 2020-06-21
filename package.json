@@ -6,8 +6,6 @@
     "test": "gauge run specs/"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "js-yaml": "^3.13.1",
     "taiko": "^1.0.6"
   }
 }
