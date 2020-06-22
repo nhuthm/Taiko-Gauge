@@ -138,25 +138,6 @@ class baseAction {
     await write(fieldValue, into($(css)))
   }
 
-  async getCurrentDateValueToFieldByXpath(xpath) {
-    let today = new Date();
-    let dd = today.getDate();
-    let mm = today.getMonth() + 1;
-    let yyyy = today.getFullYear();
-    let currentDate = dd + '/' + mm + '/' + yyyy
-    await clear($(xpath))
-    await write(currentDate, into($(xpath)))
-  }
-
-
-  async hoverElementByText(text) {
-    await hover(text)
-  }
-
-  async hoverElementByXpath(xpath) {
-    await hover($(xpath))
-  }
-
   async checkAttributeValue(elementID, attribute, attributeValue) {
     await waitFor(1000)
     assert.equal(
@@ -240,26 +221,6 @@ class baseAction {
       expected,
       'Actual: ' + actual + ' But Expected: ' + expected
     )
-  }
-
-  async waitForButtonVisible(buttonID) {
-    await waitFor(async () => await button({ id: buttonID }).isVisible())
-  }
-
-  async waitForLinkVisible(linkID) {
-    await waitFor(async () => await link({ id: linkID }).isVisible())
-  }
-
-  async waitForElementByCssVisible(css) {
-    await waitFor(async () => await $(css).isVisible())
-  }
-
-  async waitForElementByXpathVisible(xpath) {
-    await waitFor(async () => await $(xpath).isVisible())
-  }
-
-  async waitForElementByXpathAndIDVisible(ID) {
-    await waitFor(async () => await $("//*[@id = '" + ID + "']").isVisible())
   }
 }
 
