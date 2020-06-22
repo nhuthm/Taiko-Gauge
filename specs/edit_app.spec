@@ -14,7 +14,7 @@ tags: edit_app
 
 ## Verify user can edit on the app that had been approved by admin
 * DFT-006 Click on the app at "1" position
-* EDT-001 Click on "EDIT DETAILS" button
+* DFT-007 Click on "EDIT DETAILS" button
 * DFT-005 Verify the "Edit App" title display
 
 ## Verify user edit the app successfully
