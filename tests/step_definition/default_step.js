@@ -27,7 +27,7 @@ step('DFT-005 Verify the <titleName> title display', async(titleName) => {
 })
 
 step('DFT-006 Click on the app at <position> position', async(position) => {
-    await baseAction.clickElementByXpath("(//*[contains(@class,'is-clickable')])[1]")
+    await baseAction.clickElementByXpath("(//*[contains(@class,'is-clickable')])["+position+"]")
 })
 
 step('DFT-007 Click on <buttonName> button', async (buttonName) => {
@@ -48,4 +48,8 @@ step('DFT-010 Click on <field> drop down list', async(field) => {
 
 step('DFT-011 Select <option> from Dropdown below <title>', async (option, title) => {
     await baseAction.selectDropDownBelowText(title,option)
+})
+
+step('DFT-012 Check confirmation <text> display', async(text) => {
+    await baseAction.checkTextDisplay(text)
 })

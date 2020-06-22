@@ -11,3 +11,20 @@ tags: delete_app
 * DFT-007 Click on "Sign in" button
 * DFT-008 Click on "Apps" tab from Navigation Menu
 * DFT-005 Verify the "My Apps" title display
+
+## Verify user can open delete app modal
+* DFT-006 Click on the app at "1" position
+* EDT-001 Click on "DELETE APP" button
+* DFT-012 Check confirmation "Are you sure you want to remove this App ‘" display
+
+## Verify user can cancel delete process
+* DFT-007 Click on "Cancel" button
+* DFT-004 Verify "Verified by Reapit " title display
+
+## Verify user can delete app successfully
+* EDT-001 Click on "DELETE APP" button
+* DFT-012 Check confirmation "Are you sure you want to remove this App ‘" display
+* DFT-007 Click on "Delete" button
+* DFT-012 Check confirmation "We have successfully deleted app ‘" display
+* EDT-001 Click on "Back to List" button
+* DFT-005 Verify the "My Apps" title display
