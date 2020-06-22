@@ -30,3 +30,22 @@ step('DFT-006 Click on the app at <position> position', async(position) => {
     await baseAction.clickElementByXpath("(//*[contains(@class,'is-clickable')])[1]")
 })
 
+step('DFT-007 Click on <buttonName> button', async (buttonName) => {
+    await baseAction.clickElementByText(buttonName)
+})
+
+step('DFT-008 Click on <text> tab from Navigation Menu', async(text) => {
+    await baseAction.clickElementByText(text)
+})
+
+step('DFT-009 Enter <value> to textbox by name <textboxName>', async(value, textboxName) => {
+    await baseAction.enterValueToFieldByName(textboxName, value)
+})
+
+step('DFT-010 Click on <field> drop down list', async(field) => {
+    await baseAction.clickElementByXpath("//*[text()='"+field+"']/following-sibling::select")
+})
+
+step('DFT-011 Select <option> from Dropdown below <title>', async (option, title) => {
+    await baseAction.selectDropDownBelowText(title,option)
+})
