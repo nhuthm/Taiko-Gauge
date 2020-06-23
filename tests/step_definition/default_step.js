@@ -77,3 +77,7 @@ step('DFT-017 Click on <button> below <text>', async(button, text) => {
 step("DFT-018 Upload <file> into <iconImage>", async(file, iconImage) => {
     await baseAction.uploadFileByFieldID(iconImage, file)
 })
+
+step('DFT-019 Check <name> button display', async(name) => {
+    await baseAction.checkTextDisplay(name)
+})
