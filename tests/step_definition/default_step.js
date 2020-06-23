@@ -69,3 +69,7 @@ step('DFT-015 Click on dropdown list below <part>', async(part) => {
 step('DFT-016 Click on <option> from the list of <part>', async(option, part) => {
     await baseAction.clickElementByXpath("//*[text()='"+part+"']/ancestor::div[contains(@class,'field')]/following-sibling::div/descendant::div[text()='"+option+"']")
 })
+
+step('DFT-017 Click on <button> below <text>', async(button, text) => {
+    await baseAction.clickElementByXpath("//label[text()='"+text+"']/following-sibling::div//span[text()='"+button+"']")
+})

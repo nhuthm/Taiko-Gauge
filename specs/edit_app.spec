@@ -30,3 +30,4 @@ tags: edit_app
 * DFT-009 Enter "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500" to textbox by name "summary"
 * DFT-015 Click on dropdown list below "Integration Type"
 * DFT-016 Click on "Identity Check" from the list of "Integration Type"
+* DFT-017 Click on "Upload Image" below "Icon *"
