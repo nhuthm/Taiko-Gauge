@@ -20,14 +20,14 @@ tags: edit_app
 * DFT-005 Verify the "Edit App" title display
 
 ## Verify user edit the app successfully
-* DFT-009 Enter "Nhut Huynh" to textbox by name "name"
-* DFT-009 Enter "huynhminhnhut97@gmail.com" to textbox by name "supportEmail"
-* DFT-009 Enter "0382575945" to textbox by name "telephone"
-* DFT-010 Click on "Category" drop down list
-* DFT-011 Select "Events" from Dropdown below "Category"
-* DFT-009 Enter "https://youtube.com" to textbox by name "homePage"
-* DFT-014 Enter "https://youtube.com" to textbox by id "launch Url"
-* DFT-009 Enter "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500" to textbox by name "summary"
-* DFT-015 Click on dropdown list below "Integration Type"
-* DFT-016 Click on "Identity Check" from the list of "Integration Type"
-* DFT-017 Click on "Upload Image" below "Icon *"
+-* DFT-009 Enter "Nhut Huynh" to textbox by name "name"
+-* DFT-009 Enter "huynhminhnhut97@gmail.com" to textbox by name "supportEmail"
+-* DFT-009 Enter "0382575945" to textbox by name "telephone"
+-* DFT-010 Click on "Category" drop down list
+-* DFT-011 Select "Events" from Dropdown below "Category"
+-* DFT-009 Enter "https://youtube.com" to textbox by name "homePage"
+-* DFT-014 Enter "https://youtube.com" to textbox by id "launch Url"
+-* DFT-009 Enter "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500" to textbox by name "summary"
+-* DFT-015 Click on dropdown list below "Integration Type"
+-* DFT-016 Click on "Identity Check" from the list of "Integration Type"
+* DFT-018 Upload "doremon.jpg" into "iconImage"

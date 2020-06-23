@@ -72,6 +72,8 @@ step('DFT-016 Click on <option> from the list of <part>', async(option, part) =>
 
 step('DFT-017 Click on <button> below <text>', async(button, text) => {
     await baseAction.clickElementByXpath("//label[text()='"+text+"']/following-sibling::div//span[text()='"+button+"']")
-    await waitFor(async () => (await $("//label[text()='"+text+"']/following-sibling::div//span[text()='"+button+"']").exists()),
-    {navigationTimeout: 10000})
+})
+
+step("DFT-018 Upload <file> into <iconImage>", async(file, iconImage) => {
+    await baseAction.uploadFileByFieldID(iconImage, file)
 })
