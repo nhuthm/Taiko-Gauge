@@ -13,14 +13,20 @@ tags: edit_app
 * DFT-005 Verify the "My Apps" title display
 
 ## Verify user can edit on the app that had been approved by admin
-* DFT-006 Click on the app at "1" position
+* DFT-006 Click on the app at "2" position
 * DFT-007 Click on "EDIT DETAILS" button
+* DFT-013 Check "Important" text display
+* DFT-007 Click on "YES, CONTINUE" button
 * DFT-005 Verify the "Edit App" title display
 
 ## Verify user edit the app successfully
-* DFT-009 Enter "Messenger Test" to textbox by name "name"
-* DFT-009 Enter "support-test@messenger.com" to textbox by name "supportEmail"
+* DFT-009 Enter "Nhut Huynh" to textbox by name "name"
+* DFT-009 Enter "huynhminhnhut97@gmail.com" to textbox by name "supportEmail"
 * DFT-009 Enter "0382575945" to textbox by name "telephone"
 * DFT-010 Click on "Category" drop down list
 * DFT-011 Select "Events" from Dropdown below "Category"
-
+* DFT-009 Enter "https://youtube.com" to textbox by name "homePage"
+* DFT-014 Enter "https://youtube.com" to textbox by id "launch Url"
+* DFT-009 Enter "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500" to textbox by name "summary"
+* DFT-015 Click on dropdown list below "Integration Type"
+* DFT-016 Click on "Identity Check" from the list of "Integration Type"

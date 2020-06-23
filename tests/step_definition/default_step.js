@@ -53,3 +53,19 @@ step('DFT-011 Select <option> from Dropdown below <title>', async (option, title
 step('DFT-012 Check confirmation <text> display', async(text) => {
     await baseAction.checkTextDisplay(text)
 })
+
+step('DFT-013 Check <title> text display', async(title) => {
+    await baseAction.checkXpathDisplay("//h4[text()='"+title+"']")
+})
+
+step('DFT-014 Enter <value> to textbox by id <textboxId>', async(value, textboxId) => {
+    await baseAction.enterValueToFieldByID(textboxId, value)
+})
+
+step('DFT-015 Click on dropdown list below <part>', async(part) => {
+    await baseAction.clickElementByXpath("//label[text()='"+part+"']/following-sibling::div[contains(@class,'select')]")
+})
+
+step('DFT-016 Click on <option> from the list of <part>', async(option, part) => {
+    await baseAction.clickElementByXpath("//*[text()='"+part+"']/ancestor::div[contains(@class,'field')]/following-sibling::div/descendant::div[text()='"+option+"']")
+})

@@ -1,5 +1,3 @@
-/* globals gauge*/
-/* */
 'use strict'
 
 const { openBrowser, closeBrowser } = require('taiko')
