@@ -1,4 +1,15 @@
-taiko-gauge-exercise
+## Using
+[Gauge](https://github.com/getgauge/gauge) + [Taiko](https://github.com/getgauge/taiko) test framework for learning and improving skill working with automation test
 
-Notice: Before running this test automation, please run on delete app first because we have several apps doesn't allow 
-to delete or edit. So, I have setup a position for you to run test automation to test
+## Source code structure
+```
+.
+├── specs
+└── tests
+    ├── common
+    └── steps_definition
+```
+
+## Folder definitions
+Going to explain what is the purpose of each main folders in the project
+### /specs
