@@ -28,6 +28,7 @@ step('DFT-005 Verify the <titleName> title display', async(titleName) => {
 
 step('DFT-006 Click on the app at <position> position', async(position) => {
     await baseAction.clickElementByXpath("(//*[contains(@class,'is-clickable')])["+position+"]")
+    await waitFor(5000)
 })
 
 step('DFT-007 Click on <buttonName> button', async (buttonName) => {
@@ -80,4 +81,8 @@ step("DFT-018 Upload <file> into <iconImage>", async(file, iconImage) => {
 
 step('DFT-019 Check <name> button display', async(name) => {
     await baseAction.checkTextDisplay(name)
+})
+
+step('DFT-020 Enter <value> into description field', async(value) => {
+    await baseAction.enterValueToFieldByXpath("//*[contains(@class,'pell-content')]", value)
 })

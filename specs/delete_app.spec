@@ -13,7 +13,7 @@ tags: delete_app
 * DFT-005 Verify the "My Apps" title display
 
 ## Verify user can open delete app modal
-* DFT-006 Click on the app at "2" position
+* DFT-006 Click on the app at "3" position
 * DFT-007 Click on "DELETE APP" button
 * DFT-012 Check confirmation "Are you sure you want to remove this App ‘" display
 
